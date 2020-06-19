@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="shu_recruit">
+    <output-path>$PROJECT_DIR$/out/artifacts/shu_recruit</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SHUEIF" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="aopalliance" />
+          <element id="library" level="project" name="activation" />
+          <element id="library" level="project" name="mail" />
+          <element id="library" level="project" name="lombok" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.19" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="SHUEIF/web/Web2" />
+      <element id="javaee-facet-resources" facet="SHUEIF/web/Web" />
+    </root>
+  </artifact>
+</component>
